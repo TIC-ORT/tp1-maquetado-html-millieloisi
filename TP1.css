@@ -49,13 +49,18 @@ p1 {
     text-align: center;
     justify-content: flex-start;
     align-items: flex-start;
+    transform: translateY(-70px);
+position: relative; 
+left: 25vw
 }
 
 .cuadro {
-    width: 50vw; 
-    height: 200px; 
+    width: 230px; 
+    height: 170px; 
     background-color: rgb(148, 148, 148);
     align-items: center;
+    position: relative; 
+   left: 20vw
     
     
 }
@@ -66,8 +71,9 @@ h1{
     width: 50vw;
     display: flex;
     flex-direction: column; 
-    justify-content:flex-start; 
-    align-items: flex-;
+    transform: translateY(0px);
+    position: relative; 
+    left: -9vw
     
     
 }
